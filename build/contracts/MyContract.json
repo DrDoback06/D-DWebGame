@@ -1,0 +1,82 @@
+{
+  "contractName": "MyContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MyContract.sol\":\"MyContract\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MyContract.sol\":{\"keccak256\":\"0x74e2595af7082761595af01ae71365f9d2e700434eee257f5a8048530770b5ab\",\"urls\":[\"bzz-raw://5fbab704449c77a133929d6b45284ae1975cc79e846dfefc52e181e41831c458\",\"dweb:/ipfs/QmXe5ytyhLpRqDkZ27Xv5A13rfGq1xrFuzfSFbpVZPBv7m\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122004ab0f0df89772973ecf6ff5c5791cbc7aeee431bf2cf2253eefb4c18f7145a864736f6c63430008130033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122004ab0f0df89772973ecf6ff5c5791cbc7aeee431bf2cf2253eefb4c18f7145a864736f6c63430008130033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "27:64:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "27:64:0:-:0;;;;;",
+  "source": "pragma solidity ^0.8.0;\r\n\r\ncontract MyContract {\r\n    // Your contract code will go here\r\n}\r\n",
+  "sourcePath": "F:\\DynamicGameWebsite\\contracts\\MyContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MyContract.sol",
+    "exportedSymbols": {
+      "MyContract": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MyContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "MyContract",
+        "nameLocation": "36:10:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "27:64:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:93:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x54699610534940B880697476DE469D4bf2Bf3Fb1",
+      "transactionHash": "0x2f4fb0cc8391805fcc70bdb7c072c0f1336693e5f27aea997c247ccfdd69b42d"
+    }
+  },
+  "schemaVersion": "3.4.13",
+  "updatedAt": "2023-05-06T19:55:38.595Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
